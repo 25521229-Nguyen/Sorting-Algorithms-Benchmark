@@ -127,15 +127,12 @@ int main()
     cin.tie(NULL);
 
     vector<double> v;
-    vector<double> v1 = v;
-    vector<double> v2 = v;
-    vector<double> v3 = v;
 
     int n = 1000000;
     nhapVector(v, n);
 
     auto start_time = chrono::high_resolution_clock::now();
-    quickSort(v, 0, n - 1);
+    //quickSort(v, 0, n - 1);
     //heapSort(v);
     //mergeSort(v, 0, n - 1);
     //sort(v.begin(), v.end());
