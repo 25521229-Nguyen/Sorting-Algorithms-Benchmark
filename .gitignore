@@ -1,0 +1,12 @@
+# Bỏ qua các file biên dịch C++
+*.exe
+*.o
+*.obj
+*.out
+
+# Bỏ qua các file dữ liệu quá lớn (tùy chọn)
+*.txt
+
+# Bỏ qua thư mục IDE
+.vscode/
+.idea/
